@@ -243,11 +243,11 @@ def ismemberpresent(id):
 def echo(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
 
     if not checkuser(message):
-        app.send_message(message.chat.id, '__You are either not **Authorized** or **Banned**__', reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("📦 Source Code", url="https://github.com/bipinkrish/Mdisk-Downloader-Bot")]]))
+        app.send_message(message.chat.id, 'Monthly 100 Rupees Only, Contact Admin For Access👇👇', reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("A D M I N", url="https://t.me/Steve_4")]]))
         return
-    
-    app.send_message(message.chat.id, f'__Hi {message.from_user.mention}, I am Mdisk Video Downloader, you can watch Downloaded Videos without MX Player.\n\nSend me a link to Start... or click /help to check usage__',reply_to_message_id=message.id,
-    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("📦 Source Code", url="https://github.com/bipinkrish/Mdisk-Downloader-Bot")]]))
+
+    app.send_message(message.chat.id, 'Hi, I am Mdisk Video Downloader, you can watch Videos without MX Player.\nSend me a link to Start...',reply_to_message_id=message.id,
+    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("A D M I N", url="https://T.me/Steve_4")]]))
 
 
 # help command
